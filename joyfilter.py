@@ -67,11 +67,11 @@ class roboCore:
            self.robrz = [0]
 
            self.robx.append(joy_x)
-           self.robx.append(joy_y)
-           self.robx.append(joy_z)
-           self.robx.append(joy_rx)
-           self.robx.append(joy_ry)
-           self.robx.append(joy_rz)
+           self.roby.append(joy_y)
+           self.robz.append(joy_z)
+           self.robrx.append(joy_rx)
+           self.robry.append(joy_ry)
+           self.robrz.append(joy_rz)
 
            self.countx += 1 
     
