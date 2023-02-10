@@ -100,8 +100,8 @@ class roboCore:
                  self.robomovement[4]=round(xaverage,1)
                  self.robomovement[5]=round(xaverage,1)
            
-                 nameSpaceObj.movel(self.robomovement,time=0.5, ref=DR_BASE, mod=DR_FC_MOD_REL)
-
+                 #nameSpaceObj.movel(self.robomovement,time=0.5, ref=DR_BASE, mod=DR_FC_MOD_REL)
+                 nameSpaceObj.movel(self.robomovement,vel=100,acc=100, ref=DR_BASE, mod=DR_FC_MOD_REL)
                  sol = get_current_posx()
                  print(sol)
               
